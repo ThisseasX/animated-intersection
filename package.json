@@ -1,0 +1,25 @@
+{
+  "name": "animated-intersection",
+  "version": "1.0.0",
+  "description": "Experiments with Intersection Observer and animations.",
+  "main": "index.js",
+  "homepage": "https://thisseasx.github.io/animated-intersection",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "ThisseasX",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.4.7"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

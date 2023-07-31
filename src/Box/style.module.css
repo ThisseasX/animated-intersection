@@ -1,0 +1,22 @@
+.animated {
+  color: white;
+  padding: 32px;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 6px;
+
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.odd {
+  transform: translateX(calc(100vw / 2 + 50%));
+}
+
+.even {
+  transform: translateX(calc(-100vw / 2 - 50%));
+}
+
+.shown {
+  transform: translateX(0);
+}
